@@ -4,6 +4,7 @@ import {
   deleteTask,
   list,
   markStatus,
+  updateTask,
 } from "./services/taskServices.js";
 
 const [command] = process.argv.slice(2); // get agrument
@@ -31,7 +32,12 @@ switch (command) {
     break;
 
   case "update":
-    console.log("add new task");
+    {
+      const id = process.argv.at(3);
+      const desc = process.argv.at(4);
+
+      updateTask(id, desc);
+    }
     break;
 
   case "delete":

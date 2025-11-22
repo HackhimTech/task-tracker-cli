@@ -75,3 +75,22 @@ export function markStatus(status, id) {
   console.log(`✅ Task ID: ${id} marked ${sts}`);
   saveTaskToDB(tasks);
 }
+
+export function updateTask(id, description) {
+  // console.log("task (ID)", id, "description", description, "to update");
+  const tasks = loadDB();
+  const task = tasks.find((t) => t.id == id);
+
+  if (!task) {
+    console.log("No task found!");
+    return null;
+  }
+
+  // console.log("task found to update:", task);
+
+  task.description = description;
+  task.updated = now();
+
+  console.log(`✅ Task ID: ${id} updated!`);
+  saveTaskToDB(tasks);
+}
