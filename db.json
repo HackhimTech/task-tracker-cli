@@ -12,12 +12,5 @@
     "status": "done",
     "createdAt": "2025-11-22T01:12:05.121Z",
     "updated": "2025-11-22T09:32:59.156Z"
-  },
-  {
-    "id": 3,
-    "description": "add",
-    "status": "todo",
-    "createdAt": "2025-11-22T10:51:16.248Z",
-    "updated": "2025-11-22T10:51:16.263Z"
   }
 ]
