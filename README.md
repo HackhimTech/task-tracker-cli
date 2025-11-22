@@ -41,22 +41,26 @@ List by status
 ## Data Storage
 
 All task are saved in a db.json file in the root directory
-`[
-    {
-        "id": 1,
-        "description": "Go to the groceries store",
-        "status": "done",
-        "createdAt": "2025-11-21T23:02:31.616Z",
-        "updated": "2025-11-22T01:11:43.832Z"
-    },
-    {
-        "id": 2,
-        "description": "sleeping soon",
-        "status": "done",
-        "createdAt": "2025-11-22T01:12:05.121Z",
-        "updated": "2025-11-22T09:32:59.156Z"
-    }
-]`
+
+### 📝 Task Data Example
+
+```json
+[
+  {
+    "id": 1,
+    "description": "Go to the groceries store",
+    "status": "done",
+    "createdAt": "2025-11-21T23:02:31.616Z",
+    "updated": "2025-11-22T01:11:43.832Z"
+  },
+  {
+    "id": 2,
+    "description": "sleeping soon",
+    "status": "done",
+    "createdAt": "2025-11-22T01:12:05.121Z",
+    "updated": "2025-11-22T09:32:59.156Z"
+  }
+]
 
 ## Project Structure
 
@@ -86,3 +90,4 @@ Happy task tracking!
 I don sabi wetin i won learn from am
 Also don't think it is AI generated o, it took me hardwork to compose all this o. make i no swear for your papa o.
 Anyways later! peace and don't play!
+```
