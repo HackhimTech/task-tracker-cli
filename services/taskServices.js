@@ -77,7 +77,6 @@ export function markStatus(status, id) {
 }
 
 export function updateTask(id, description) {
-  // console.log("task (ID)", id, "description", description, "to update");
   const tasks = loadDB();
   const task = tasks.find((t) => t.id == id);
 
@@ -85,8 +84,6 @@ export function updateTask(id, description) {
     console.log("No task found!");
     return null;
   }
-
-  // console.log("task found to update:", task);
 
   task.description = description;
   task.updated = now();
