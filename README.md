@@ -76,6 +76,15 @@ db.json - Database file
 package.json - Use to configure ESM
 README.md - This file
 
+## Project URL
+
+This project was inspired by Roadmap.sh
+🔗 To the project below:
+
+```link
+ https://roadmap.sh/projects/task-tracker
+```
+
 ## Why This Project Rocks
 
 - Perfect for learning CLI development
