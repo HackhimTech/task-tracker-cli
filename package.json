@@ -1,0 +1,13 @@
+{
+  "name": "task-tracker-cli",
+  "version": "1.0.0",
+  "description": "a command-line task tracker built to track users to-dos, mark tasks as in-progres or done, updare or delete them - all from your terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
