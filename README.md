@@ -22,6 +22,7 @@ Track your to-dos, mark task as in-progress or done, update or delete them - all
 
 ## Usage
 
+```bash
 Add new task
 `node app.js add "Buy milk and eggs"`
 Update a task
@@ -37,6 +38,7 @@ List by status
 `node app.js list done`
 `node app.js list todo`
 `node app.js list in-progress`
+```
 
 ## Data Storage
 
@@ -61,6 +63,7 @@ All task are saved in a db.json file in the root directory
     "updated": "2025-11-22T09:32:59.156Z"
   }
 ]
+```
 
 ## Project Structure
 
@@ -90,4 +93,7 @@ Happy task tracking!
 I don sabi wetin i won learn from am
 Also don't think it is AI generated o, it took me hardwork to compose all this o. make i no swear for your papa o.
 Anyways later! peace and don't play!
+
+```
+
 ```
