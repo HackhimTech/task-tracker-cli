@@ -19,7 +19,7 @@ if (!command) {
 switch (command) {
   case "add":
     try {
-      const description = process.argv.at(-1);
+      const description = process.argv.at(3);
       addTask(description);
     } catch (err) {
       if (err instanceof AddTaskError)
