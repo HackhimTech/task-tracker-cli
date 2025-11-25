@@ -23,21 +23,21 @@ Track your to-dos, mark task as in-progress or done, update or delete them - all
 ## Usage
 
 ```bash
-Add new task
-`node app.js add "Buy milk and eggs"`
-Update a task
-`node app.js update 1 "Buy peak milk and 4 eggs"`
-Delete a task
-`node app.js delete 1`
-Mark task as in progress
-`node app.js "mark-in-progress" 1`
-Mark task as done
-`node app.js "mark-done" 1`
-List by status
-`node app.js list`
-`node app.js list done`
-`node app.js list todo`
-`node app.js list in-progress`
+  #Add new task
+  node app.js add "Buy milk and eggs"
+  #Update a task
+  node app.js update 1 "Buy peak milk and 4 eggs"
+  #Delete a task
+  node app.js delete 1
+  #Mark task as in progress
+  node app.js "mark-in-progress" 1
+  #Mark task as done
+  node app.js "mark-done" 1
+  #List by status
+  node app.js list
+  node app.js list done
+  node app.js list todo
+  node app.js list in-progress
 ```
 
 ## Data Storage
