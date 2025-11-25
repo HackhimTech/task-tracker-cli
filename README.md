@@ -102,9 +102,7 @@ README.md - This file
 This project was inspired by Roadmap.sh
 🔗 To the project below:
 
-```link
  https://roadmap.sh/projects/task-tracker
-```
 
 ## Why This Project Rocks
 
@@ -123,7 +121,3 @@ Happy task tracking!
 I don sabi wetin i won learn from am
 Also don't think it is AI generated o, it took me hardwork to compose all this o. make i no swear for your papa o.
 Anyways later! peace and don't play!
-
-```
-
-```
